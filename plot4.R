@@ -17,7 +17,7 @@ par(mfcol = c(2,2))
 plot(x=POSIX_Time, y=df2day$Global_active_power, 
      type = 'l',
      xlab = "",
-     ylab = "Global Active Power (kilowatts)")
+     ylab = "Global Active Power")
 
 # Bottom Left Plot
 plot(x=POSIX_Time, y=df2day$Sub_metering_1, 
